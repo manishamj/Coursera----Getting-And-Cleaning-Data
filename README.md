@@ -22,6 +22,9 @@ ORIGINAL DATA DESCRIPTION: http://archive.ics.uci.edu/ml/datasets/Human+Activity
 
 ** Use of this dataset in publications must be acknowledged by referencing the following publication [1] [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012. This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited. Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 
+Data Layout
+-----------
+
 There are 2 sets of data in the zip file - train and test. As explained in the above data description, 70% subject data is in train folders & 30% in test folders.
     •	The features are unlabeled and can be found in the x_[train|test].txt. 
     •	The activity labels are in the y_[train|test].txt file. 
