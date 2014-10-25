@@ -1,7 +1,3 @@
-Coursera----Getting-And-Cleaning-Data Project
-=============================================
-
-My solutions to the project for Johns Hopkins MOOC class tought by by Jeff Leek, PhD, Brian Caffo, PhD, Roger D. Peng, PhD. for October 2014.
 
 Coursera : Getting and Cleaning Data Project
 ============================================
@@ -25,9 +21,9 @@ This repository should explain how all of the scripts work and how they are conn
 ** Use of this dataset in publications must be acknowledged by referencing the following publication [1] [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012. This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited. Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 
 There are 2 sets of data in the zip file - train and test. As explained in the above data description, 70% subject data is in train folders & 30% in test folders.
-*	The features are unlabeled and can be found in the x_[train|test].txt. 
-*	The activity labels are in the y_[train|test].txt file. 
-*	The subjects are in the subject_[train|test].txt file.
+*	The features are unlabeled and can be found in the `x_train.txt and x_test.txt`. 
+*	The activity labels are in the `y_train.txt and y_test.txt` file. 
+*	The subjects are in the `subject_train.txt and subject_test.txt` file.
 
 ###R SCRIPT
 run_analysis.R - this script does following:
