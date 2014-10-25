@@ -24,10 +24,15 @@ Activities
 Refer to activity_labels.txt for the description and mapping of the activity lables. 
 
 1 WALKING
+
 2 WALKING_UPSTAIRS
+
 3 WALKING_DOWNSTAIRS
+
 4 SITTING
+
 5 STANDING
+
 6 LAYING
 
 Feature Information
@@ -89,8 +94,11 @@ Project steps
 Following steps were performed for the project:
 1.   The data tables in train and test folders were merged into join data set to create complete data set with all 30 subjects. 
     •	X_joinData, created by merging  X_train.txt and X_test.txt, is a 561 feature vector with time and frequency domain variables and dimention of 10299 rows and 561 column.
+
     •	Y_joinData, created by merging  Y_train.txt and Y_test.txt, is the activity, has values 1-6 and dimention of 10299 rows and 1 column.
+    
     •	The sub_joinData, created by merging  subject_train.txt & subject_text.txt,  is identity of person involved in study has values 1-30  with dimention of 10299 rows and 1 column
+    
 
 2.  The subset of the data with only mean and std deviation was taken.
     •	After inspecting some rows of the join data set, it was determined that the columns with mean() and std() were needed to be selected for  the subset required for this project.  This selected 66 columns from X_joinData.  
