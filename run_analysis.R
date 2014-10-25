@@ -109,7 +109,7 @@ run_analysis <- function() {
   tidy = aggregate.data.frame(x = x_joinData, by = cbind(y_joinData, sub_joinData), FUN = mean)
   tidy <- tidy[c("Subject", setdiff(names(tidy), "Subject"))]
   
-  write.table(tidy, "tidyData.txt") # Final dataset to submit for project
+  write.table(tidy, "tidyData.txt", sep=" ", row.names=FALSE, col.names=TRUE) # Final dataset to submit for project
   
 #   Instruction to read the data back in from file
 #   tidyData <- read.table("tidyData.txt", sep=" ", header=TRUE)
