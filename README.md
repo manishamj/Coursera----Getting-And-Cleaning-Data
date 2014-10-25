@@ -28,9 +28,9 @@ There are 2 sets of data in the zip file - train and test. As explained in the a
 ###R SCRIPT
 run_analysis.R - this script does following:
 *	Load data as follows:
-  * i.	Check if data directory exists - if not it will create it
-  * ii.	Check if dataset zip is downloaded, if not then download it
-  * iii.	Check if the zip file has been unzipped, if not, unzip it
+  * 	Check if data directory exists - if not it will create it
+  * 	Check if dataset zip is downloaded, if not then download it
+  * 	Check if the zip file has been unzipped, if not, unzip it
 *	Read the tables in
 *	Merge the train and test data corresponding tables, so we have complete 100 % data for all 30 volunteers
 *	Using feature data in features.txt extract only the measurements on mean and standard deviation for each measurement. 
