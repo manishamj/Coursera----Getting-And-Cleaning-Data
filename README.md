@@ -14,6 +14,7 @@ The purpose of this project is to demonstrate ability to collect, work with, and
 This repository should explain how all of the scripts work and how they are connected.  
  
 About the raw data
+------------------
 
 DATA ORIGIN: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 ORIGINAL DATA DESCRIPTION: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -26,6 +27,7 @@ There are 2 sets of data in the zip file - train and test. As explained in the a
     •	The subjects are in the subject_[train|test].txt file.
 
 R SCRIPT
+--------
 
 run_analysis.R - this script does following:
     •	Load data as follows:
@@ -40,14 +42,17 @@ run_analysis.R - this script does following:
     •	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Final tidyData.txt has 181 rows (heading line + 180 rows of data (30 subjects, 6 activites each) ) and 68 variables 
 
 PREREQUISITE
+------------
 
 The code works with base R packages- no special packages are required.
 
 USAGE
+-----
 
 source('./run_analysis.R')  
 run_analysis()
 
 Output
+------
 
 Output will be the tidy data set - tidyData.txt a space deliminted file that is created in current working directory. The run_analysis.R also has commented lines at the end to read data from the file in the code again and do head() on the data to see exact data.
