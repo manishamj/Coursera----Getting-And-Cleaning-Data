@@ -15,12 +15,14 @@ Description
 -----------
 
 Description is given at: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 Also,  detailed description of the original dataset can be seen at features_info.txt in the zipped dataset file. 
 
 Activities
 ==========
 
 Refer to activity_labels.txt for the description and mapping of the activity lables. 
+
 1 WALKING
 2 WALKING_UPSTAIRS
 3 WALKING_DOWNSTAIRS
@@ -101,7 +103,7 @@ Following steps were performed for the project:
 5.  Created cleanedData by combining sub_joinData, Y_joinData and X_joinData.  
 6.  Then created independent tidy data set with  the average of each variable for each activity and each subject using aggregate and wrote out the resulting table in file in current directoty as "tidyData.txt"
 
-TIDY DATA
+Tidy Data
 =========
 
 The end result of project is a file named tidyData.txt which is a space delimited file written to the current working directory. It will have 181 rows (1 heading row + 180 data rows for 30 subjects and 6 activities per subject) wih 68 columns (1 column for subject + 1 column for activity +  66 mean and standard deviation columns). The original  data was subsetted and  aggregrated resulting in a tidy data set with the average of each variable for each activity and each subject.
