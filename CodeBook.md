@@ -101,11 +101,11 @@ Following steps were performed for the project:
   *	After inspecting some rows of the join data set, it was determined that the columns with `mean()` and `std()` were needed to be selected for  the subset required for this project.  This selected 66 columns from X_joinData.  
   *	I also removed "()" and "-" from the column names for more readability.
   * Changed column names by substituting ^t with "time" and ^f with "freq" for readability.
-  *	This gave new X_joinData with 10299 rows and 66 columns.
+  *	This left new X_joinData with dimensions of 10299 rows and 66 columns.
 *  In Y_joinData replaced activity value with descriptive activity label and named the column as Activity.
 *  In sub_joinData, named the column as "Subject".
 *  Created cleanedData by combining sub_joinData, Y_joinData and X_joinData.  
-*  Then created independent tidy data set with  the average of each variable for each activity and each subject using aggregate and wrote out the resulting table in file in current directoty as "tidyData.txt"
+*  Then created independent tidy data set with  the average of each variable for each activity and each subject using aggregate and wrote out the resulting table in file in current directory as "tidyData.txt"
 
 ###Tidy Data
 The end result of project is a file named `tidyData.txt` which is a space delimited file written to the current working directory. It will have 181 rows (1 heading row + 180 data rows for 30 subjects and 6 activities per subject) wih 68 columns (1 column for subject + 1 column for activity +  66 mean and standard deviation columns). The original  data was subsetted and  aggregrated resulting in a tidy data set with the average of each variable for each activity and each subject.
